@@ -5,14 +5,8 @@
 
 <p>Esteban Salas</p>
 <p>Nicolas Bustamante</p>
-  <br></br>
+<br></br>
 <h4></h4> usuarios en json</h4>
-
-  <p>esteban</p>
-  <p>1234</p>
-  <br></br>
-  <p>nicolas</p>
-  <p>1234</p>
-  <br></br>
-  <p>juan</p>
-  <p>1234</p>
+<p>usuario: esteban, contraseña: 234</p>
+<p>usuario: nicolas, contraseña: 234</p>
+<p>usuario: juan, contraseña: 234</p>
