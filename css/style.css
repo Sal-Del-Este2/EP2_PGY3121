@@ -60,7 +60,14 @@ body{
   background-color: rgb(218, 218, 218);
   margin: 0;
   padding: 0;
-  height: 90vh;
+  height: 70vh;
+  overflow: hidden;
+}
+.cuerpo2{
+  background-color: rgb(218, 218, 218);
+  margin: 0;
+  padding: 0;
+  height: 75vh;
   overflow: hidden;
 }
 .barraInf{
@@ -188,12 +195,10 @@ li a {
 .txt-amarillo2:hover {
   color: rgb(246, 241, 195); /* Nuevo color de texto al pasar el mouse (por ejemplo, naranja) */
 }
-.formulario{
 
-}
 .centrado{
   position: absolute; /* posiciona el elemento de forma absoluta con respecto al resto )(encima de los demas) */
-  top: 70%; /* coloca el borde superior del elemento en el 50% de la altura del contenedor */
+  top: 73%; /* coloca el borde superior del elemento en el 50% de la altura del contenedor */
   left: 50%; /* coloca el borde izquierdo del elemento en el 50% del ancho del contenedor */
   transform: translate(-50%,-50%); /* Esto traslada el elemento, moviéndolo hacia arriba y hacia la izquierda en un 50% de su propio ancho y altura lo centra horizontal y verticalmente en relación con su contenedor*/
   width: 400px; /* ancho del elemento en 400 píxeles */
@@ -271,9 +276,9 @@ input[type="submit"]:hover{
   transition: 1s;
 }
 .link_inscripcion {
-  margin: 30px 0;
+  margin: 15px 0;
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
   color: #666666;
 }
 .link_inscripcion a {
@@ -282,4 +287,12 @@ input[type="submit"]:hover{
 }
 .link_inscripcion a:hover {
   text-decoration: underline;
+}
+.connected-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background-color: green; /* Color del círculo */
+  margin-right: 10px; /* Espacio entre el círculo y el texto */
 }
